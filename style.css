@@ -1,0 +1,87 @@
+body {
+  margin: 0%;
+  font-family: "Catamaran", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0px;
+}
+
+section {
+  height: 500px;
+}
+
+p {
+  color: gray;
+}
+
+.highlight-orange {
+  color: orange;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+.top-banner {
+  background-image: url(images/top-banner-bg.png);
+  background-repeat: no-repeat;
+  padding-top: 5%;
+}
+
+.link-button {
+  text-decoration: none;
+  font-weight: 800;
+  background-image: linear-gradient(#ffb029, #f6906d);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+.portfolio-banner {
+  background-image: url(images/portfolio-banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 5%;
+}
+
+.experience-banner {
+  background-image: url(images/exp-banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-top: 5%;
+}
+
+.experience-banner h1 {
+  margin-left: 7%;
+}
+
+.exp-card {
+  box-shadow: 10px 15px 30px gray;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 8%;
+  width: 35%;
+}
+
+#fullstack {
+  border-left: 8px solid #684eda;
+}
+
+#junior {
+  border-left: 8px solid #ffb228;
+}
+
+footer {
+  text-align: center;
+  color: dimgray;
+}
