@@ -9,8 +9,8 @@ h1 {
   margin: 0px;
 }
 
-section {
-  height: 500px;
+.flexible-container {
+  display: flex;
 }
 
 p {
@@ -57,7 +57,7 @@ p {
 .experience-banner {
   background-image: url(images/exp-banner-bg.png);
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: left bottom;
   padding-top: 5%;
 }
 
@@ -84,4 +84,5 @@ p {
 footer {
   text-align: center;
   color: dimgray;
+  padding-top: 10%;
 }
